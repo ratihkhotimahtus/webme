@@ -1,0 +1,51 @@
+body {
+    background-color: #F9F8F0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+}
+
+hr {
+    height: 2px;
+    background-color: green;
+    border: none;
+    margin: 20px 0;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    color: green;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
