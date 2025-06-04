@@ -10,10 +10,10 @@
     <hr size="2px" color="green">
 
     <nav align="center">
-        <a href="index.html" style="margin: 10px; text-decoration: none; color: green;">HOME</a> |
-        <a href="profile.html" style="margin: 10px; text-decoration: none; color: green;">PROFILE</a> |
-        <a href="about.html" style="margin: 10px; text-decoration: none; color: green;">ABOUT US</a> |
-        <a href="login.html">LOGIN</a> 
+        <a href="index.php" style="margin: 10px; text-decoration: none; color: green;">HOME</a> |
+        <a href="profile.php" style="margin: 10px; text-decoration: none; color: green;">PROFILE</a> |
+        <a href="about.php" style="margin: 10px; text-decoration: none; color: green;">ABOUT US</a> |
+        <a href="login.php">LOGIN</a> 
     </nav>
 
     <h2>Kenapa Tanaman Mini? </h2>

@@ -17,6 +17,6 @@
         <input type="submit" value="Login"> 
     </form>
 
-    <p>Belum punya akun? <a href="register.html">Daftar</a></p>
+    <p>Belum punya akun? <a href="register.php">Daftar</a></p>
 </body>
 </html>

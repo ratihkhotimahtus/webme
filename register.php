@@ -69,6 +69,6 @@
         <input type="submit" value="Daftar">
     </form>
 
-    <p>Sudah punya akun? <a href="login.html">Login</a></p>
+    <p>Sudah punya akun? <a href="login.php">Login</a></p>
 </body>
 </html>
