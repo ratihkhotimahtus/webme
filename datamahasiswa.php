@@ -30,7 +30,8 @@
 </head>
 <body>
     <h1>Data Mahasiswa</h1>
-
+    
+    <a href= "tambahdata.php"><button style="margin-bottom: 12px; background-color: pink;">Tambah Data</button></a>
 
     <table border="1" cellspacing="0" cellpadding="10">
         <tr>
@@ -40,6 +41,7 @@
             <th>NIM</th>
             <th>Jurusan</th>
             <th>No Hp</th>
+            <th>Aksi</th>
         </tr>
         <?php
         $i = 1;
@@ -51,6 +53,7 @@
             <td><?= $mhs["nim"]?></td>
             <td><?= $mhs["jurusan"]?></td>
             <td><?= $mhs["nohp"]?></td>
+            <td><a href= "hapusdata.php/?id=<?= $mhs["id"]?>" ><button style="margin-bottom: 12px; background-color: pink;">Hapus</button></a>
         </tr>
         <?php $i++; } ?>
        
