@@ -1,4 +1,13 @@
 <?php
+
+    session_start();
+
+   if(!isset($_SESSION["login"]))
+   {
+    header("Location: login1.php");
+    exit;
+   }
+   
     require 'function.php';
 
     $id = $_GET["id"];

@@ -2,7 +2,15 @@
    // $nama = "Ratih Khotimahtus S";
    // echo "Hello World" . $nama;
 
-   require 'function.php';
+   session_start();
+
+   if(!isset($_SESSION["login"]))
+   {
+    header("Location: login1.php");
+    exit;
+   }
+
+   include 'function.php';
    $query = "SELECT * FROM mahasiswa";
    $rows = query($query); /// hasilnya wadah dengan isinya
 
@@ -29,6 +37,7 @@
     <title>DATA MAHASISWA</title>
 </head>
 <body>
+    <a href="logout.php"> Logout</a>
     <h1>Data Mahasiswa</h1>
     
     <a href= "tambahdata.php"><button style="margin-bottom: 12px; background-color: lightgreen;">Tambah Data</button></a>
